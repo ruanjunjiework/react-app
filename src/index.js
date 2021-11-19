@@ -4,6 +4,7 @@ import './index.css';
 // import App from './App';
 import NameCard from './component/NameCard'
 import LikesButton from './component/LikesButton'
+import DigitalClock from './component/DigitalClock'
 import reportWebVitals from './reportWebVitals';
 
 const tags = ['聪明','可爱']
@@ -11,6 +12,7 @@ ReactDOM.render(
   <React.StrictMode>
     <NameCard name="rjj" number={1380288} isHuman tags={tags}/>
     <LikesButton />
+    <DigitalClock />
   </React.StrictMode>,
   document.getElementById('root')
 );
